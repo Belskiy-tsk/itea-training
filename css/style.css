@@ -1,0 +1,230 @@
+html, body, p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+
+.new-font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cyan-text{
+    color:#00ecbb;
+}
+
+.gray-text{
+    color:#433a5e;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav li a{
+    text-decoration: none;
+    color:#00ecbb;
+}
+
+.exp{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.exp li{
+    margin: 10px 0;
+}
+
+.header{
+    background-color: #6a13eb;
+}
+
+.white-text{
+    color:#fff;
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.container.no-padding-top{
+    padding-top: 0;
+}
+
+.expirience{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.achivements{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.achivements li{
+    background: url("../img/img-ok.png") no-repeat left center;
+    padding-left: 70px;
+    margin: 20px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.strong-points{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    column-count: 2;
+}
+
+.strong-points li{
+    background: url("../img/img-ok-2.png") no-repeat left center;
+    padding-left: 70px;
+    margin: 20px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+
+}
+
+ ul img{
+    width: 50px;
+    height: 47px;
+}
+
+.quote {
+    background-image: url("../img/bg-fon.png") ;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+    font-style: 24px;
+}   
+.quote-text{
+    font-size: 30px;
+
+}
+
+.logo-img{
+    width: 980px;
+}
+
+.paragraph{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contact-form input, #contact-form textarea{
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border:none;
+    border:3px solid #00ecbb;
+    width: 974px;
+}
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+}
+
+input#submit{
+    width:300px;
+    background-color: #00ecbb;
+    cursor: pointer;
+    color:#6a13eb
+}
+
+#gotop{
+    text-decoration: none;
+    display: inline-block;
+    height: 69px;
+    width: 69px;
+    background-color: #00ecbb;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
+
+.logo-container{
+    background-image: url("../img/my-photo.jpg");
+    background-size:  cover;
+    width: 980px;
+    height: 727px;
+    box-shadow: 0 -100px 50px 0 rgba(0, 0, 0, 0.8) inset;
+
+}
+
+.text-overlap{
+    position: relative; 
+    top: -70px; 
+    margin: 0; 
+    padding: 0 30px; 
+    font-size: 22px;
+}
+
